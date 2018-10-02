@@ -209,9 +209,9 @@ public class IonicDeploy extends CordovaPlugin {
         logMessage("INIT", "Version Label 2: " + ionicdeploy_version_label);
       }
       if(!this.version_label.equals(ionicdeploy_version_label)) {
-        this.ignore_deploy = true;
-        this.updateVersionLabel(uuid);
-        this.prefs.edit().remove("uuid").apply();
+        // this.ignore_deploy = true;
+        this.updateVersionLabel(IonicDeploy.NOTHING_TO_IGNORE);
+        // this.prefs.edit().remove("uuid").apply();
       }
     }
 
