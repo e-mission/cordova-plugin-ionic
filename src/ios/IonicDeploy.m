@@ -243,7 +243,7 @@ static NSOperationQueue *delegateQueue;
     if(![ionicdeploy_version_label isEqualToString: NO_DEPLOY_LABEL]) {
         if(![self.version_label isEqualToString: ionicdeploy_version_label]) {
             // self.ignore_deploy = true;
-            [self updateVersionLabel:uuid];
+            [self updateVersionLabel:NOTHING_TO_IGNORE];
             // [prefs setObject: @"" forKey: @"uuid"];
             // [prefs setBool:YES forKey:@"show_splash"];
             // [prefs synchronize];
