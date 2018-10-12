@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-ionic"
-    version="3.0.0">
+    version="3.2.0">
     <name>IonicCordova</name>
-    <description>Common Cordova functionality for Ionic apps</description>
+    <description>Common Cordova functionality for Ionic apps, e-mission fork</description>
     <license>MIT</license>
     <keywords>Ionic,native,html5,hybrid,cordova</keywords>
-    <repo>https://github.com/ionic-team/cordova-plugin-ionic.git</repo>
-    <issue>https://github.com/ionic-team/cordova-plugin-ionic/issues</issue>
+    <repo>https://github.com/e-mission/cordova-plugin-ionic.git</repo>
+    <issue>https://github.com/e-mission/cordova-plugin-ionic/issues</issue>
 
     <js-module src="www/common.js">
         <runs/>
